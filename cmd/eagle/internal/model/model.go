@@ -37,7 +37,7 @@ func init() {
 	port = "3306"
 	packageName = "model"
 	user = "root"
-	password = "123456"
+	password = ""
 	targetDir = "internal/model"
 
 	CmdNew.Flags().StringVarP(&filename, "filename", "f", filename, "model filename")
