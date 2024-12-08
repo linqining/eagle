@@ -4,13 +4,13 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/go-eagle/eagle/pkg/app"
+	"github.com/linqining/eagle/pkg/app"
 
 	"github.com/gin-gonic/gin"
 	"github.com/pkg/errors"
 
-	"github.com/go-eagle/eagle/pkg/errcode"
-	"github.com/go-eagle/eagle/pkg/sign"
+	"github.com/linqining/eagle/pkg/errcode"
+	"github.com/linqining/eagle/pkg/sign"
 )
 
 // SignMd5Middleware md5 签名校验中间件

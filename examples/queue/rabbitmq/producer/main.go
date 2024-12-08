@@ -6,14 +6,14 @@ import (
 	"log"
 	"time"
 
-	"github.com/go-eagle/eagle/pkg/queue/rabbitmq/options"
+	"github.com/linqining/eagle/pkg/queue/rabbitmq/options"
 
-	eagle "github.com/go-eagle/eagle/pkg/app"
-	"github.com/go-eagle/eagle/pkg/config"
-	logger "github.com/go-eagle/eagle/pkg/log"
+	eagle "github.com/linqining/eagle/pkg/app"
+	"github.com/linqining/eagle/pkg/config"
+	logger "github.com/linqining/eagle/pkg/log"
 	"github.com/spf13/pflag"
 
-	"github.com/go-eagle/eagle/pkg/queue/rabbitmq"
+	"github.com/linqining/eagle/pkg/queue/rabbitmq"
 )
 
 var (

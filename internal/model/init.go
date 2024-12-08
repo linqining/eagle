@@ -5,7 +5,7 @@ import (
 
 	"gorm.io/gorm"
 
-	"github.com/go-eagle/eagle/pkg/storage/orm"
+	"github.com/linqining/eagle/pkg/storage/orm"
 )
 
 const (

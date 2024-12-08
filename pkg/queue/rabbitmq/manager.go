@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/go-eagle/eagle/pkg/log"
+	"github.com/linqining/eagle/pkg/log"
 )
 
 var (

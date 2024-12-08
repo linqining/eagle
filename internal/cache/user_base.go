@@ -8,11 +8,11 @@ import (
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/go-eagle/eagle/internal/model"
-	"github.com/go-eagle/eagle/pkg/cache"
-	"github.com/go-eagle/eagle/pkg/encoding"
-	"github.com/go-eagle/eagle/pkg/log"
-	"github.com/go-eagle/eagle/pkg/redis"
+	"github.com/linqining/eagle/internal/model"
+	"github.com/linqining/eagle/pkg/cache"
+	"github.com/linqining/eagle/pkg/encoding"
+	"github.com/linqining/eagle/pkg/log"
+	"github.com/linqining/eagle/pkg/redis"
 )
 
 const (

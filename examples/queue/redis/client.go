@@ -4,8 +4,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/go-eagle/eagle/pkg/config"
 	"github.com/hibiken/asynq"
+	"github.com/linqining/eagle/pkg/config"
 )
 
 var (

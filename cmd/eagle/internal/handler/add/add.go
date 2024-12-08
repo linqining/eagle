@@ -5,7 +5,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/go-eagle/eagle/cmd/eagle/internal/utils"
+	"github.com/linqining/eagle/cmd/eagle/internal/utils"
 )
 
 // CmdCache represents the new command.

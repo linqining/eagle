@@ -1,18 +1,18 @@
 # 🦅 eagle
 
- [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/go-eagle/eagle/Go?style=flat-square)](https://github.com/go-eagle/eagle)
+ [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/go-eagle/eagle/Go?style=flat-square)](https://github.com/linqining/eagle)
  [![codecov](https://codecov.io/gh/go-eagle/eagle/branch/master/graph/badge.svg)](https://codecov.io/gh/go-eagle/eagle)
  [![GolangCI](https://golangci.com/badges/github.com/golangci/golangci-lint.svg)](https://golangci.com)
- [![godoc](https://godoc.org/github.com/go-eagle/eagle?status.svg)](https://godoc.org/github.com/go-eagle/eagle)
+ [![godoc](https://godoc.org/github.com/linqining/eagle?status.svg)](https://godoc.org/github.com/linqining/eagle)
  [![Gitter](https://badges.gitter.im/go-eagle/eagle.svg)](https://gitter.im/go-eagle/eagle?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
  <a href="http://opentracing.io"><img src="https://img.shields.io/badge/OpenTracing-enabled-blue.svg" alt="OpenTracing Badge"></a>
- [![Go Report Card](https://goreportcard.com/badge/github.com/go-eagle/eagle)](https://goreportcard.com/report/github.com/go-eagle/eagle)
+ [![Go Report Card](https://goreportcard.com/badge/github.com/linqining/eagle)](https://goreportcard.com/report/github.com/linqining/eagle)
  [![gitmoji](https://img.shields.io/badge/gitmoji-%20%F0%9F%98%9C%20%F0%9F%98%8D-FFDD67.svg?style=flat-square)](https://github.com/carloscuesta/gitmoji)
  [![License](https://img.shields.io/github/license/go-eagle/eagle?style=flat-square)](/LICENSE)
 
 一款适合于快速开发业务的 Go 框架，可快速构建 API 服务 或 Web 网站。
 
-[English](https://github.com/go-eagle/eagle/blob/master/README.md) | 中文文档
+[English](https://github.com/linqining/eagle/blob/master/README.md) | 中文文档
 
 ## 官方文档
 
@@ -84,7 +84,7 @@ TIPS: 需要本地安装MySQL数据库和 Redis
 
 ```bash
 # 下载安装，可以不用是 GOPATH
-git clone https://github.com/go-eagle/eagle
+git clone https://github.com/linqining/eagle
 
 # 进入到下载目录
 cd eagle
@@ -102,7 +102,7 @@ make build
 
 ```bash
 # 下载
-go get github.com/go-eagle/eagle/cmd/eagle
+go get github.com/linqining/eagle/cmd/eagle
 
 export GO111MODULE=on
 # 或者在.bashrc 或 .zshrc中加入
@@ -150,11 +150,11 @@ eagle new github.com/foo/bar
 
 ## 📖 开发规约
 
-- [配置说明](https://github.com/go-eagle/eagle/blob/master/config)
-- [错误码设计](https://github.com/go-eagle/eagle/tree/master/pkg/errcode)
-- [service 的使用规则](https://github.com/go-eagle/eagle/blob/master/internal/service)
-- [repository 的使用规则](https://github.com/go-eagle/eagle/blob/master/internal/repository)
-- [cache 使用说明](https://github.com/go-eagle/eagle/blob/master/pkg/cache)
+- [配置说明](https://github.com/linqining/eagle/blob/master/config)
+- [错误码设计](https://github.com/linqining/eagle/tree/master/pkg/errcode)
+- [service 的使用规则](https://github.com/linqining/eagle/blob/master/internal/service)
+- [repository 的使用规则](https://github.com/linqining/eagle/blob/master/internal/repository)
+- [cache 使用说明](https://github.com/linqining/eagle/blob/master/pkg/cache)
 
 ## 🚀 部署
 
@@ -194,7 +194,7 @@ go build -o bin_eagle
 export GOROOT=/usr/local/go1.13.8
 export GOPATH=/data/build/test/src
 export GO111MODULE=on
-cd /data/build/test/src/github.com/go-eagle/eagle
+cd /data/build/test/src/github.com/linqining/eagle
 /usr/local/go1.13.8/bin/go build -o /data/build/bin/bin_eagle -mod vendor main.go
 rsync -av /data/build/bin/ x.x.x.x:/home/go/eagle
 supervisorctl restart eagle
@@ -229,7 +229,7 @@ supervisorctl restart eagle
 
 ## 📜 CHANGELOG
 
-- [更新日志](https://github.com/go-eagle/eagle/blob/master/CHANGELOG.md)
+- [更新日志](https://github.com/linqining/eagle/blob/master/CHANGELOG.md)
 
 ## 🏘️ 谁在用
 
@@ -239,7 +239,7 @@ supervisorctl restart eagle
 
 ## 💬 Discussion
 
-- Issue: https://github.com/go-eagle/eagle/issues
+- Issue: https://github.com/linqining/eagle/issues
 - QQ交流群：1074476202
 - Gitter: https://gitter.im/go-eagle/eagle
 - 微信交流群

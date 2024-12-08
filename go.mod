@@ -1,4 +1,4 @@
-module github.com/go-eagle/eagle
+module github.com/linqining/eagle
 
 go 1.22
 
@@ -78,11 +78,10 @@ require (
 )
 
 require (
+	github.com/1024casts/gorm-opentelemetry v1.0.1-0.20210805144709-183269b54068 // indirect
 	github.com/ClickHouse/ch-go v0.61.5 // indirect
 	github.com/ClickHouse/clickhouse-go/v2 v2.23.2 // indirect
-	github.com/HdrHistogram/hdrhistogram-go v1.0.1 // indirect
 	github.com/KyleBanks/depth v1.2.1 // indirect
-	github.com/Shopify/toxiproxy v2.1.4+incompatible // indirect
 	github.com/alicebob/gopher-json v0.0.0-20200520072559-a9ecdc9d1d3a // indirect
 	github.com/aliyun/alibaba-cloud-sdk-go v1.61.18 // indirect
 	github.com/andybalholm/brotli v1.1.0 // indirect
@@ -146,12 +145,13 @@ require (
 	github.com/mattn/go-colorable v0.1.12 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
 	github.com/matttproud/golang_protobuf_extensions v1.0.4 // indirect
+	github.com/minio/highwayhash v1.0.2 // indirect
 	github.com/mitchellh/go-homedir v1.1.0 // indirect
 	github.com/mitchellh/mapstructure v1.4.3 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
 	github.com/montanaflynn/stats v0.0.0-20171201202039-1bf9dbcd8cbe // indirect
-	github.com/nats-io/nats-server/v2 v2.9.0 // indirect
+	github.com/nats-io/jwt/v2 v2.3.0 // indirect
 	github.com/nats-io/nkeys v0.3.0 // indirect
 	github.com/nats-io/nuid v1.0.1 // indirect
 	github.com/paulmach/orb v0.11.1 // indirect
@@ -201,7 +201,6 @@ require (
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20230711160842-782d3b101e98 // indirect
 	gopkg.in/alexcesaro/quotedprintable.v3 v3.0.0-20150716171945-2caba252f4dc // indirect
 	gopkg.in/ini.v1 v1.66.2 // indirect
-	gopkg.in/mail.v2 v2.3.1 // indirect
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect

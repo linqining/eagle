@@ -6,7 +6,7 @@ import (
 
 	"github.com/fatih/color"
 
-	"github.com/go-eagle/eagle/cmd/eagle/internal/utils"
+	"github.com/linqining/eagle/cmd/eagle/internal/utils"
 
 	"github.com/spf13/cobra"
 )

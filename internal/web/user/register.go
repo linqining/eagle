@@ -5,12 +5,12 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/go-eagle/eagle/internal/model"
-	"github.com/go-eagle/eagle/internal/service"
-	"github.com/go-eagle/eagle/internal/web"
-	"github.com/go-eagle/eagle/pkg/errcode"
-	"github.com/go-eagle/eagle/pkg/flash"
-	"github.com/go-eagle/eagle/pkg/log"
+	"github.com/linqining/eagle/internal/model"
+	"github.com/linqining/eagle/internal/service"
+	"github.com/linqining/eagle/internal/web"
+	"github.com/linqining/eagle/pkg/errcode"
+	"github.com/linqining/eagle/pkg/flash"
+	"github.com/linqining/eagle/pkg/log"
 )
 
 // GetRegister register as a new user

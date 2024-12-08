@@ -5,7 +5,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/go-eagle/eagle/cmd/eagle/internal/base"
+	"github.com/linqining/eagle/cmd/eagle/internal/base"
 )
 
 // CmdUpgrade represents the upgrade command.
@@ -19,8 +19,8 @@ var CmdUpgrade = &cobra.Command{
 // Run upgrade the eagle tools.
 func Run(cmd *cobra.Command, args []string) {
 	err := base.GoInstall(
-		"github.com/go-eagle/eagle/cmd/eagle",
-		"github.com/go-eagle/eagle/cmd/protoc-gen-go-gin",
+		"github.com/linqining/eagle/cmd/eagle",
+		"github.com/linqining/eagle/cmd/protoc-gen-go-gin",
 		"google.golang.org/protobuf/cmd/protoc-gen-go",
 		"google.golang.org/grpc/cmd/protoc-gen-go-grpc",
 		"github.com/envoyproxy/protoc-gen-validate",

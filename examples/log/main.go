@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/go-eagle/eagle/pkg/config"
-	"github.com/go-eagle/eagle/pkg/log"
+	"github.com/linqining/eagle/pkg/config"
+	"github.com/linqining/eagle/pkg/log"
 )
 
 func main() {

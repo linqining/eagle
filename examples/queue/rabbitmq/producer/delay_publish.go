@@ -6,11 +6,11 @@ import (
 	"log"
 	"time"
 
-	eagle "github.com/go-eagle/eagle/pkg/app"
-	"github.com/go-eagle/eagle/pkg/config"
-	logger "github.com/go-eagle/eagle/pkg/log"
-	"github.com/go-eagle/eagle/pkg/queue/rabbitmq"
-	"github.com/go-eagle/eagle/pkg/queue/rabbitmq/options"
+	eagle "github.com/linqining/eagle/pkg/app"
+	"github.com/linqining/eagle/pkg/config"
+	logger "github.com/linqining/eagle/pkg/log"
+	"github.com/linqining/eagle/pkg/queue/rabbitmq"
+	"github.com/linqining/eagle/pkg/queue/rabbitmq/options"
 )
 
 // 启动 rabbitmq

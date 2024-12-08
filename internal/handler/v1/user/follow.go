@@ -1,13 +1,13 @@
 package user
 
 import (
-	"github.com/go-eagle/eagle/internal/ecode"
-	"github.com/go-eagle/eagle/internal/service"
+	"github.com/linqining/eagle/internal/ecode"
+	"github.com/linqining/eagle/internal/service"
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/go-eagle/eagle/pkg/errcode"
-	"github.com/go-eagle/eagle/pkg/log"
+	"github.com/linqining/eagle/pkg/errcode"
+	"github.com/linqining/eagle/pkg/log"
 )
 
 // Follow 关注

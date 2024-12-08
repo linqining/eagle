@@ -10,7 +10,7 @@ import (
 
 	"github.com/redis/go-redis/v9"
 
-	"github.com/go-eagle/eagle/pkg/log"
+	"github.com/linqining/eagle/pkg/log"
 )
 
 const (

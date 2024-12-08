@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/go-eagle/eagle/pkg/queue/rabbitmq/options"
+	"github.com/linqining/eagle/pkg/queue/rabbitmq/options"
 )
 
 // Publish add data to queue

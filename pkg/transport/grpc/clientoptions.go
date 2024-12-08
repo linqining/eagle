@@ -7,7 +7,7 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/keepalive"
 
-	"github.com/go-eagle/eagle/pkg/registry"
+	"github.com/linqining/eagle/pkg/registry"
 )
 
 // clientOptions define gRPc client options.

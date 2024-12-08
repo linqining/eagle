@@ -3,7 +3,7 @@ package service
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/go-eagle/eagle/cmd/eagle/internal/service/add"
+	"github.com/linqining/eagle/cmd/eagle/internal/service/add"
 )
 
 // CmdService represents the service command.

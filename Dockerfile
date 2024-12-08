@@ -22,7 +22,7 @@ ENV GO111MODULE=on \
     APP_ENV=docker
 
 # 移动到工作目录
-WORKDIR /go/src/github.com/go-eagle/eagle
+WORKDIR /go/src/github.com/linqining/eagle
 
 # 复制项目中的 go.mod 和 go.sum文件并下载依赖信息
 COPY go.mod .
@@ -44,8 +44,8 @@ WORKDIR /bin
 ENV APP_ENV local
 
 # 从builder镜像中把 /build 拷贝到当前目录
-COPY --from=builder /go/src/github.com/go-eagle/eagle/eagle    /bin/eagle
-COPY --from=builder /go/src/github.com/go-eagle/eagle/config   /data/conf/eagle/config
+COPY --from=builder /go/src/github.com/linqining/eagle/eagle    /bin/eagle
+COPY --from=builder /go/src/github.com/linqining/eagle/config   /data/conf/eagle/config
 COPY --from=builder /bin/grpc_health_probe                     /bin/grpc_health_probe
 
 RUN apk update \

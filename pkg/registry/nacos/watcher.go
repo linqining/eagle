@@ -8,7 +8,7 @@ import (
 	"github.com/nacos-group/nacos-sdk-go/model"
 	"github.com/nacos-group/nacos-sdk-go/vo"
 
-	"github.com/go-eagle/eagle/pkg/registry"
+	"github.com/linqining/eagle/pkg/registry"
 )
 
 var _ registry.Watcher = (*watcher)(nil)

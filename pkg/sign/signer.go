@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/go-eagle/eagle/pkg/utils"
+	"github.com/linqining/eagle/pkg/utils"
 )
 
 // CryptoFunc 签名加密函数

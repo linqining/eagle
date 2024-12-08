@@ -7,7 +7,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/go-eagle/eagle/pkg/errcode"
+	"github.com/linqining/eagle/pkg/errcode"
 )
 
 // DB database.

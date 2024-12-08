@@ -3,8 +3,8 @@ package server
 import (
 	"time"
 
-	"github.com/go-eagle/eagle/pkg/app"
-	"github.com/go-eagle/eagle/pkg/transport/grpc"
+	"github.com/linqining/eagle/pkg/app"
+	"github.com/linqining/eagle/pkg/transport/grpc"
 )
 
 // NewGRPCServer creates a gRPC server

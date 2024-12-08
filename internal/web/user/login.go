@@ -3,16 +3,16 @@ package user
 import (
 	"net/http"
 
-	"github.com/go-eagle/eagle/pkg/auth"
+	"github.com/linqining/eagle/pkg/auth"
 
-	"github.com/go-eagle/eagle/internal/ecode"
+	"github.com/linqining/eagle/internal/ecode"
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/go-eagle/eagle/internal/service"
-	"github.com/go-eagle/eagle/internal/web"
-	"github.com/go-eagle/eagle/pkg/errcode"
-	"github.com/go-eagle/eagle/pkg/log"
+	"github.com/linqining/eagle/internal/service"
+	"github.com/linqining/eagle/internal/web"
+	"github.com/linqining/eagle/pkg/errcode"
+	"github.com/linqining/eagle/pkg/log"
 )
 
 // GetLogin show login page

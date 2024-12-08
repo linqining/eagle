@@ -1,11 +1,11 @@
 package main
 
 import (
-	eagle "github.com/go-eagle/eagle/pkg/app"
-	"github.com/go-eagle/eagle/pkg/config"
-	logger "github.com/go-eagle/eagle/pkg/log"
-	redisMQ "github.com/go-eagle/eagle/pkg/transport/consumer/redis"
 	"github.com/hibiken/asynq"
+	eagle "github.com/linqining/eagle/pkg/app"
+	"github.com/linqining/eagle/pkg/config"
+	logger "github.com/linqining/eagle/pkg/log"
+	redisMQ "github.com/linqining/eagle/pkg/transport/consumer/redis"
 	"github.com/spf13/pflag"
 )
 

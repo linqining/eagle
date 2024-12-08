@@ -3,8 +3,8 @@ package async
 import (
 	"context"
 
-	"github.com/go-eagle/eagle/pkg/log"
-	"github.com/go-eagle/eagle/pkg/utils"
+	"github.com/linqining/eagle/pkg/log"
+	"github.com/linqining/eagle/pkg/utils"
 )
 
 // Go 异步执行 asyncFunc() 函数，会进行 recover() 操作，如果出现 panic() 则会记录日志

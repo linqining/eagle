@@ -30,7 +30,7 @@ export GOPROXY=https://mirrors.aliyun.com/goproxy/,direct
 下载
 
 ```bash
-go install github.com/go-eagle/eagle/cmd/eagle@latest
+go install github.com/linqining/eagle/cmd/eagle@latest
 ```
 
 windows:

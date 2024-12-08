@@ -53,10 +53,10 @@ func EagleMod() string {
 	if cachePath == "" {
 		cachePath = filepath.Join(gopath, "pkg", "mod")
 	}
-	if path, err := ModuleVersion("github.com/go-eagle/eagle/v2"); err == nil {
-		// $GOPATH/pkg/mod/github.com/go-eagle/eagle@v2
+	if path, err := ModuleVersion("github.com/linqining/eagle/v2"); err == nil {
+		// $GOPATH/pkg/mod/github.com/linqining/eagle@v2
 		return filepath.Join(cachePath, path)
 	}
-	// $GOPATH/src/github.com/go-eagle/eagle
+	// $GOPATH/src/github.com/linqining/eagle
 	return filepath.Join(gopath, "src", "github.com", "go-eagle", "eagle")
 }

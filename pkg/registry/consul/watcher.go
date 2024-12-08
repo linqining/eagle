@@ -3,7 +3,7 @@ package consul
 import (
 	"context"
 
-	"github.com/go-eagle/eagle/pkg/registry"
+	"github.com/linqining/eagle/pkg/registry"
 )
 
 type watcher struct {

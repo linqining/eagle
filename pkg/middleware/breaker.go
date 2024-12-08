@@ -8,8 +8,8 @@ import (
 	"github.com/go-kratos/aegis/circuitbreaker/sre"
 	"github.com/pkg/errors"
 
-	"github.com/go-eagle/eagle/pkg/app"
-	"github.com/go-eagle/eagle/pkg/container/group"
+	"github.com/linqining/eagle/pkg/app"
+	"github.com/linqining/eagle/pkg/container/group"
 )
 
 // ErrNotAllowed is request failed due to circuit breaker triggered.

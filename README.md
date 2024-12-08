@@ -1,17 +1,17 @@
 # 🦅 eagle
 
- [![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/go-eagle/eagle/test.yml?branch=master&style=flat-square)](https://github.com/go-eagle/eagle)
+ [![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/go-eagle/eagle/test.yml?branch=master&style=flat-square)](https://github.com/linqining/eagle)
  [![codecov](https://codecov.io/gh/go-eagle/eagle/branch/master/graph/badge.svg)](https://codecov.io/gh/go-eagle/eagle)
  [![GolangCI](https://golangci.com/badges/github.com/golangci/golangci-lint.svg)](https://golangci.com)
- [![godoc](https://godoc.org/github.com/go-eagle/eagle?status.svg)](https://godoc.org/github.com/go-eagle/eagle)
+ [![godoc](https://godoc.org/github.com/linqining/eagle?status.svg)](https://godoc.org/github.com/linqining/eagle)
  [![Gitter](https://badges.gitter.im/go-eagle/eagle.svg)](https://gitter.im/go-eagle/eagle?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
  <a href="http://opentracing.io"><img src="https://img.shields.io/badge/OpenTracing-enabled-blue.svg" alt="OpenTracing Badge"></a>
- [![Go Report Card](https://goreportcard.com/badge/github.com/go-eagle/eagle)](https://goreportcard.com/report/github.com/go-eagle/eagle)
+ [![Go Report Card](https://goreportcard.com/badge/github.com/linqining/eagle)](https://goreportcard.com/report/github.com/linqining/eagle)
  [![gitmoji](https://img.shields.io/badge/gitmoji-%20%F0%9F%98%9C%20%F0%9F%98%8D-FFDD67.svg?style=flat-square)](https://github.com/carloscuesta/gitmoji)
  [![License](https://img.shields.io/github/license/go-eagle/eagle?style=flat-square)](/LICENSE)
 
 A Go framework suitable for rapid business development, which can quickly build API services or Web sites.   
-English | [中文文档](https://github.com/go-eagle/eagle/blob/master/README_ZH.md)
+English | [中文文档](https://github.com/linqining/eagle/blob/master/README_ZH.md)
 
 ## Features
 
@@ -34,7 +34,7 @@ English | [中文文档](https://github.com/go-eagle/eagle/blob/master/README_ZH
 - CI/CD [GitHub Actions](https://github.com/actions), [docker](https://www.docker.com/), [kubernetes](https://github.com/kubernetes/kubernetes)
 
 ## Framework Layered Architecture
-![eagle-framework-diagram](https://github.com/go-eagle/eagle/assets/3043638/cd05f6d5-058c-4ab0-87ee-47148e0c68aa)
+![eagle-framework-diagram](https://github.com/linqining/eagle/assets/3043638/cd05f6d5-058c-4ab0-87ee-47148e0c68aa)
 
 ## Logic Layered Architecture
 
@@ -73,10 +73,10 @@ Eagle utilizes a classic layered structure and employs the Wire dependency injec
 GOPROXY="https://goproxy.cn,direct"
 
 # go >= 1.16
-go install github.com/go-eagle/eagle/cmd/eagle@latest
+go install github.com/linqining/eagle/cmd/eagle@latest
 
 # go < 1.16
-go get github.com/go-eagle/eagle/cmd/eagle
+go get github.com/linqining/eagle/cmd/eagle
 ```
 
 ## Quick Start
@@ -100,7 +100,7 @@ make run
 
 ## CHANGELOG
 
-- [CHANGELOG](https://github.com/go-eagle/eagle/blob/master/CHANGELOG.md)
+- [CHANGELOG](https://github.com/linqining/eagle/blob/master/CHANGELOG.md)
 
 ## Who is using
 
@@ -110,12 +110,12 @@ make run
 
 ## Discussion
 
-- Issue: https://github.com/go-eagle/eagle/issues
+- Issue: https://github.com/linqining/eagle/issues
 - Discord: https://discord.com/channels/968369660900814869
 
 ## Microservice Roadmap
 
-![Microservice-roadmap](https://github.com/go-eagle/eagle/assets/3043638/c7ef237e-e0f9-4699-843d-54588b2bcec8)
+![Microservice-roadmap](https://github.com/linqining/eagle/assets/3043638/c7ef237e-e0f9-4699-843d-54588b2bcec8)
 
 ## Contributing
 

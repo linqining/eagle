@@ -27,7 +27,7 @@ var (
 
 func init() {
 	if repoURL = os.Getenv("EAGLE_LAYOUT_REPO"); repoURL == "" {
-		repoURL = "https://github.com/go-eagle/eagle-layout.git"
+		repoURL = "https://github.com/linqining/eagle-layout.git"
 	}
 
 	// default main, you can change to other branch, eg: http

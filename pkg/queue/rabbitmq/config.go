@@ -4,9 +4,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/go-eagle/eagle/pkg/config"
+	"github.com/linqining/eagle/pkg/config"
 
-	"github.com/go-eagle/eagle/pkg/queue/rabbitmq/options"
+	"github.com/linqining/eagle/pkg/queue/rabbitmq/options"
 )
 
 var (

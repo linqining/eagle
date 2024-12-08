@@ -7,7 +7,7 @@ import (
 )
 
 const (
-	traceName = "github.com/go-eagle/eagle/pkg/net/http"
+	traceName = "github.com/linqining/eagle/pkg/net/http"
 )
 
 var (

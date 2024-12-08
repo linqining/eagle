@@ -3,7 +3,7 @@ package orm
 import (
 	"fmt"
 
-	"github.com/go-eagle/eagle/pkg/log"
+	"github.com/linqining/eagle/pkg/log"
 	"gorm.io/gorm/logger"
 )
 

@@ -7,7 +7,7 @@ import (
 	"google.golang.org/protobuf/encoding/protojson"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/go-eagle/eagle/pkg/encoding"
+	"github.com/linqining/eagle/pkg/encoding"
 )
 
 // Name is the name registered for the json codec.

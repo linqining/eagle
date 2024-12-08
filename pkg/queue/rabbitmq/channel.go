@@ -10,7 +10,7 @@ import (
 	"github.com/cenkalti/backoff/v4"
 	"github.com/rabbitmq/amqp091-go"
 
-	"github.com/go-eagle/eagle/pkg/log"
+	"github.com/linqining/eagle/pkg/log"
 )
 
 // Channel data channel

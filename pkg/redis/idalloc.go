@@ -8,7 +8,7 @@ import (
 	"github.com/pkg/errors"
 	"github.com/redis/go-redis/v9"
 
-	"github.com/go-eagle/eagle/pkg/log"
+	"github.com/linqining/eagle/pkg/log"
 )
 
 // IDAlloc id生成器

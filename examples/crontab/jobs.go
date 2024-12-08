@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/go-eagle/eagle/pkg/log"
+	"github.com/linqining/eagle/pkg/log"
 )
 
 type GreetingJob struct {

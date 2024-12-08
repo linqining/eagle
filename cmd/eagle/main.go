@@ -5,16 +5,16 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/go-eagle/eagle/cmd/eagle/internal/cache"
-	"github.com/go-eagle/eagle/cmd/eagle/internal/handler"
-	"github.com/go-eagle/eagle/cmd/eagle/internal/model"
-	"github.com/go-eagle/eagle/cmd/eagle/internal/project"
-	"github.com/go-eagle/eagle/cmd/eagle/internal/proto"
-	"github.com/go-eagle/eagle/cmd/eagle/internal/repo"
-	"github.com/go-eagle/eagle/cmd/eagle/internal/run"
-	"github.com/go-eagle/eagle/cmd/eagle/internal/service"
-	"github.com/go-eagle/eagle/cmd/eagle/internal/task"
-	"github.com/go-eagle/eagle/cmd/eagle/internal/upgrade"
+	"github.com/linqining/eagle/cmd/eagle/internal/cache"
+	"github.com/linqining/eagle/cmd/eagle/internal/handler"
+	"github.com/linqining/eagle/cmd/eagle/internal/model"
+	"github.com/linqining/eagle/cmd/eagle/internal/project"
+	"github.com/linqining/eagle/cmd/eagle/internal/proto"
+	"github.com/linqining/eagle/cmd/eagle/internal/repo"
+	"github.com/linqining/eagle/cmd/eagle/internal/run"
+	"github.com/linqining/eagle/cmd/eagle/internal/service"
+	"github.com/linqining/eagle/cmd/eagle/internal/task"
+	"github.com/linqining/eagle/cmd/eagle/internal/upgrade"
 )
 
 var (

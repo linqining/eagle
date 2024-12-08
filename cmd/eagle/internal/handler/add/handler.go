@@ -5,7 +5,7 @@ import (
 	"os"
 	"path"
 
-	"github.com/go-eagle/eagle/cmd/eagle/internal/utils"
+	"github.com/linqining/eagle/cmd/eagle/internal/utils"
 )
 
 // Handler is a cache generator.

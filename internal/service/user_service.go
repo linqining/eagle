@@ -7,14 +7,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/go-eagle/eagle/internal/repository"
+	"github.com/linqining/eagle/internal/repository"
 
 	"github.com/pkg/errors"
 
-	"github.com/go-eagle/eagle/internal/model"
-	"github.com/go-eagle/eagle/pkg/app"
-	"github.com/go-eagle/eagle/pkg/auth"
-	"github.com/go-eagle/eagle/pkg/log"
+	"github.com/linqining/eagle/internal/model"
+	"github.com/linqining/eagle/pkg/app"
+	"github.com/linqining/eagle/pkg/auth"
+	"github.com/linqining/eagle/pkg/log"
 )
 
 // UserService define interface func

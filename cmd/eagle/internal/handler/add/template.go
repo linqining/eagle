@@ -12,11 +12,11 @@ package v1
 
 import (
     "github.com/gin-gonic/gin"
-    "github.com/go-eagle/eagle/pkg/app"
-	"github.com/go-eagle/eagle/pkg/errcode"
+    "github.com/linqining/eagle/pkg/app"
+	"github.com/linqining/eagle/pkg/errcode"
 
-	"github.com/go-eagle/eagle-layout/internal/service"
-	"github.com/go-eagle/eagle-layout/internal/types"
+	"github.com/linqining/eagle-layout/internal/service"
+	"github.com/linqining/eagle-layout/internal/types"
 )
 
 // {{.Name}} {{.LcName}}

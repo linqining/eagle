@@ -4,15 +4,15 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/go-eagle/eagle/pkg/config"
+	"github.com/linqining/eagle/pkg/config"
 	"github.com/rabbitmq/amqp091-go"
 	"github.com/spf13/pflag"
 
-	eagle "github.com/go-eagle/eagle/pkg/app"
-	logger "github.com/go-eagle/eagle/pkg/log"
-	"github.com/go-eagle/eagle/pkg/queue/rabbitmq"
-	"github.com/go-eagle/eagle/pkg/queue/rabbitmq/options"
-	RabbitMQ "github.com/go-eagle/eagle/pkg/transport/consumer/rabbitmq"
+	eagle "github.com/linqining/eagle/pkg/app"
+	logger "github.com/linqining/eagle/pkg/log"
+	"github.com/linqining/eagle/pkg/queue/rabbitmq"
+	"github.com/linqining/eagle/pkg/queue/rabbitmq/options"
+	RabbitMQ "github.com/linqining/eagle/pkg/transport/consumer/rabbitmq"
 )
 
 // cd examples/queue/rabbitmq/consumer/

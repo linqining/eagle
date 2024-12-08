@@ -3,9 +3,9 @@ package proto
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/go-eagle/eagle/cmd/eagle/internal/proto/add"
-	"github.com/go-eagle/eagle/cmd/eagle/internal/proto/client"
-	"github.com/go-eagle/eagle/cmd/eagle/internal/proto/server"
+	"github.com/linqining/eagle/cmd/eagle/internal/proto/add"
+	"github.com/linqining/eagle/cmd/eagle/internal/proto/client"
+	"github.com/linqining/eagle/cmd/eagle/internal/proto/server"
 )
 
 // CmdProto represents the proto command.

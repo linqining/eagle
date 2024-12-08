@@ -9,10 +9,10 @@ import (
 	ginSwagger "github.com/swaggo/gin-swagger" //nolint: goimports
 	"github.com/swaggo/gin-swagger/swaggerFiles"
 
-	"github.com/go-eagle/eagle/internal/handler/v1/user"
-	mw "github.com/go-eagle/eagle/internal/middleware"
-	"github.com/go-eagle/eagle/pkg/app"
-	"github.com/go-eagle/eagle/pkg/middleware"
+	"github.com/linqining/eagle/internal/handler/v1/user"
+	mw "github.com/linqining/eagle/internal/middleware"
+	"github.com/linqining/eagle/pkg/app"
+	"github.com/linqining/eagle/pkg/middleware"
 )
 
 // NewRouter loads the middlewares, routes, handlers.

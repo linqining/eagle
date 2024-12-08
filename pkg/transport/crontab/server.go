@@ -9,7 +9,7 @@ import (
 	"github.com/pkg/errors"
 	"github.com/robfig/cron/v3"
 
-	"github.com/go-eagle/eagle/pkg/config"
+	"github.com/linqining/eagle/pkg/config"
 )
 
 // Config crontab config

@@ -1,10 +1,10 @@
 package task
 
 import (
-	"github.com/go-eagle/eagle/cmd/eagle/internal/task/list"
+	"github.com/linqining/eagle/cmd/eagle/internal/task/list"
 	"github.com/spf13/cobra"
 
-	"github.com/go-eagle/eagle/cmd/eagle/internal/task/add"
+	"github.com/linqining/eagle/cmd/eagle/internal/task/add"
 )
 
 // CmdProto represents the proto command.

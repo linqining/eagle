@@ -22,14 +22,14 @@ import (
 	"github.com/spf13/pflag"
 	_ "go.uber.org/automaxprocs"
 
-	"github.com/go-eagle/eagle/internal/model"
-	"github.com/go-eagle/eagle/internal/repository"
-	"github.com/go-eagle/eagle/internal/server"
-	"github.com/go-eagle/eagle/internal/service"
-	eagle "github.com/go-eagle/eagle/pkg/app"
-	"github.com/go-eagle/eagle/pkg/config"
-	logger "github.com/go-eagle/eagle/pkg/log"
-	v "github.com/go-eagle/eagle/pkg/version"
+	"github.com/linqining/eagle/internal/model"
+	"github.com/linqining/eagle/internal/repository"
+	"github.com/linqining/eagle/internal/server"
+	"github.com/linqining/eagle/internal/service"
+	eagle "github.com/linqining/eagle/pkg/app"
+	"github.com/linqining/eagle/pkg/config"
+	logger "github.com/linqining/eagle/pkg/log"
+	v "github.com/linqining/eagle/pkg/version"
 )
 
 var (

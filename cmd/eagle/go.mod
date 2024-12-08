@@ -1,4 +1,4 @@
-module github.com/go-eagle/eagle/cmd/eagle
+module github.com/linqining/eagle/cmd/eagle
 
 go 1.22
 

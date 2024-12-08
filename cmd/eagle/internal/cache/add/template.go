@@ -17,10 +17,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/go-eagle/eagle/pkg/cache"
-	"github.com/go-eagle/eagle/pkg/encoding"
-	"github.com/go-eagle/eagle/pkg/log"
-	"github.com/go-eagle/eagle/pkg/utils"
+	"github.com/linqining/eagle/pkg/cache"
+	"github.com/linqining/eagle/pkg/encoding"
+	"github.com/linqining/eagle/pkg/log"
+	"github.com/linqining/eagle/pkg/utils"
 	"github.com/redis/go-redis/v9"
 
 	"{{.ModName}}/internal/dal/db/model"

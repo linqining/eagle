@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/go-eagle/eagle/pkg/log"
-	"github.com/go-eagle/eagle/pkg/redis"
-	"github.com/go-eagle/eagle/pkg/utils"
+	"github.com/linqining/eagle/pkg/log"
+	"github.com/linqining/eagle/pkg/redis"
+	"github.com/linqining/eagle/pkg/utils"
 )
 
 // CRepeat define struct

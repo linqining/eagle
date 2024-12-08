@@ -8,7 +8,7 @@ import (
 	"github.com/nacos-group/nacos-sdk-go/common/constant"
 	"github.com/nacos-group/nacos-sdk-go/vo"
 
-	"github.com/go-eagle/eagle/pkg/config"
+	"github.com/linqining/eagle/pkg/config"
 )
 
 // Config consul config

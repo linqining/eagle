@@ -9,8 +9,8 @@ import (
 
 	"github.com/rabbitmq/amqp091-go"
 
-	"github.com/go-eagle/eagle/pkg/log"
-	"github.com/go-eagle/eagle/pkg/queue/rabbitmq/options"
+	"github.com/linqining/eagle/pkg/log"
+	"github.com/linqining/eagle/pkg/queue/rabbitmq/options"
 )
 
 // Action define action

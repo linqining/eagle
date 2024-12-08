@@ -8,7 +8,7 @@ import (
 
 	"google.golang.org/grpc/resolver"
 
-	"github.com/go-eagle/eagle/pkg/registry"
+	"github.com/linqining/eagle/pkg/registry"
 )
 
 const name = "discovery"

@@ -7,9 +7,9 @@ import (
 	"github.com/spf13/cast"
 	"google.golang.org/grpc/status"
 
-	"github.com/go-eagle/eagle/pkg/errcode"
-	httpstatus "github.com/go-eagle/eagle/pkg/transport/http/status"
-	"github.com/go-eagle/eagle/pkg/utils"
+	"github.com/linqining/eagle/pkg/errcode"
+	httpstatus "github.com/linqining/eagle/pkg/transport/http/status"
+	"github.com/linqining/eagle/pkg/utils"
 )
 
 // Response define a response struct

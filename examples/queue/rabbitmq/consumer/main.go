@@ -7,18 +7,18 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/go-eagle/eagle/pkg/queue/rabbitmq/options"
+	"github.com/linqining/eagle/pkg/queue/rabbitmq/options"
 
 	"github.com/rabbitmq/amqp091-go"
 
-	eagle "github.com/go-eagle/eagle/pkg/app"
-	"github.com/go-eagle/eagle/pkg/config"
+	eagle "github.com/linqining/eagle/pkg/app"
+	"github.com/linqining/eagle/pkg/config"
 
 	"github.com/spf13/pflag"
 
-	logger "github.com/go-eagle/eagle/pkg/log"
+	logger "github.com/linqining/eagle/pkg/log"
 
-	"github.com/go-eagle/eagle/pkg/queue/rabbitmq"
+	"github.com/linqining/eagle/pkg/queue/rabbitmq"
 )
 
 var (

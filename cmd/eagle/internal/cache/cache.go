@@ -1,7 +1,7 @@
 package cache
 
 import (
-	"github.com/go-eagle/eagle/cmd/eagle/internal/cache/add"
+	"github.com/linqining/eagle/cmd/eagle/internal/cache/add"
 	"github.com/spf13/cobra"
 )
 

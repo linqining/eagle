@@ -7,7 +7,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/go-eagle/eagle/pkg/log"
+	"github.com/linqining/eagle/pkg/log"
 )
 
 // NewActivationEmail 发送激活邮件

@@ -1,7 +1,7 @@
 package handler
 
 import (
-	"github.com/go-eagle/eagle/cmd/eagle/internal/handler/add"
+	"github.com/linqining/eagle/cmd/eagle/internal/handler/add"
 	"github.com/spf13/cobra"
 )
 

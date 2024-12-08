@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"time"
 
-	redis2 "github.com/go-eagle/eagle/pkg/redis"
+	redis2 "github.com/linqining/eagle/pkg/redis"
 	"github.com/redis/go-redis/v9"
 )
 

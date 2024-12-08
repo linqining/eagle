@@ -7,7 +7,7 @@ import (
 	"os/exec"
 	"path"
 
-	"github.com/go-eagle/eagle/cmd/eagle/internal/base"
+	"github.com/linqining/eagle/cmd/eagle/internal/base"
 
 	"github.com/AlecAivazis/survey/v2"
 	"github.com/fatih/color"

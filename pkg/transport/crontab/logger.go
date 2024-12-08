@@ -4,7 +4,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/go-eagle/eagle/pkg/log"
+	"github.com/linqining/eagle/pkg/log"
 )
 
 type Logger struct {

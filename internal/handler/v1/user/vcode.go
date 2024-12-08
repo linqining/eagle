@@ -4,9 +4,9 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/pkg/errors"
 
-	"github.com/go-eagle/eagle/internal/ecode"
-	"github.com/go-eagle/eagle/internal/service"
-	"github.com/go-eagle/eagle/pkg/log"
+	"github.com/linqining/eagle/internal/ecode"
+	"github.com/linqining/eagle/internal/service"
+	"github.com/linqining/eagle/pkg/log"
 )
 
 // VCode 获取验证码

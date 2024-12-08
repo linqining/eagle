@@ -15,7 +15,7 @@ import (
 	"gorm.io/gorm/logger"
 	"gorm.io/plugin/opentelemetry/tracing"
 
-	"github.com/go-eagle/eagle/pkg/config"
+	"github.com/linqining/eagle/pkg/config"
 )
 
 const (

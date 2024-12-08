@@ -15,8 +15,8 @@ import (
 	"context"
 	"time"
 
-	localCache "github.com/go-eagle/eagle/pkg/cache"
-	"github.com/go-eagle/eagle/pkg/encoding"
+	localCache "github.com/linqining/eagle/pkg/cache"
+	"github.com/linqining/eagle/pkg/encoding"
 	"github.com/pkg/errors"
 	"github.com/spf13/cast"
 	"go.opentelemetry.io/otel"

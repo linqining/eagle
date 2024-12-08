@@ -8,7 +8,7 @@ import (
 
 	"github.com/AlecAivazis/survey/v2"
 	"github.com/fatih/color"
-	"github.com/go-eagle/eagle/cmd/eagle/internal/base"
+	"github.com/linqining/eagle/cmd/eagle/internal/base"
 )
 
 // Project is a project template.

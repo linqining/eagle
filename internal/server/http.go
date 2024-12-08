@@ -1,9 +1,9 @@
 package server
 
 import (
-	"github.com/go-eagle/eagle/internal/routers"
-	"github.com/go-eagle/eagle/pkg/app"
-	"github.com/go-eagle/eagle/pkg/transport/http"
+	"github.com/linqining/eagle/internal/routers"
+	"github.com/linqining/eagle/pkg/app"
+	"github.com/linqining/eagle/pkg/transport/http"
 )
 
 // NewHTTPServer creates a HTTP server

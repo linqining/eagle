@@ -1,10 +1,10 @@
 package main
 
 import (
-	eagle "github.com/go-eagle/eagle/pkg/app"
-	"github.com/go-eagle/eagle/pkg/config"
-	logger "github.com/go-eagle/eagle/pkg/log"
-	"github.com/go-eagle/eagle/pkg/transport/crontab"
+	eagle "github.com/linqining/eagle/pkg/app"
+	"github.com/linqining/eagle/pkg/config"
+	logger "github.com/linqining/eagle/pkg/log"
+	"github.com/linqining/eagle/pkg/transport/crontab"
 	"github.com/robfig/cron/v3"
 )
 

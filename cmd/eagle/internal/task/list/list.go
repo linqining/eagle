@@ -10,7 +10,7 @@ import (
 	"github.com/jedib0t/go-pretty/v6/table"
 	"github.com/spf13/cobra"
 
-	"github.com/go-eagle/eagle/cmd/eagle/internal/utils"
+	"github.com/linqining/eagle/cmd/eagle/internal/utils"
 )
 
 // CmdAdd represents the new command.

@@ -6,11 +6,11 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/spf13/cast"
 
-	"github.com/go-eagle/eagle/internal/ecode"
-	"github.com/go-eagle/eagle/internal/repository"
-	"github.com/go-eagle/eagle/internal/service"
-	"github.com/go-eagle/eagle/pkg/errcode"
-	"github.com/go-eagle/eagle/pkg/log"
+	"github.com/linqining/eagle/internal/ecode"
+	"github.com/linqining/eagle/internal/repository"
+	"github.com/linqining/eagle/internal/service"
+	"github.com/linqining/eagle/pkg/errcode"
+	"github.com/linqining/eagle/pkg/log"
 )
 
 // Get 获取用户信息
